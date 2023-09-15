@@ -1,0 +1,38 @@
+/* Define the animation for opening the menu from a specific position */
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(-20%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Define the animation for closing the menu to the top */
+  @keyframes slideOutToTop {
+    from {
+      transform: translateY(0%);
+    }
+    to {
+      transform: translateY(-20%);
+    }
+  }
+  
+  /* Apply the animation to the nav element */
+  nav {
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    display: none;
+  }
+  
+  /* Add a class to trigger the open animation */
+  nav.open {
+    display: block;
+    animation-name: slideInFromTop;
+  }
+  
+  /* Add a class to trigger the close animation */
+  nav.close {
+    animation-name: slideOutToTop;
+  }
+  
