@@ -10,11 +10,10 @@
 	position: relative;
 	text-decoration: none;
 	font-weight: bold;
-	/* Define the gradient background */
 	background-image: linear-gradient(to right, #ec4899, #9333ea, #3b82f6);
 	background-clip: text;
 	-webkit-background-clip: text;
-	color: transparent; /* Make the text transparent to show the gradient */
+	color: transparent;
   }
   
 
