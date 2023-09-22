@@ -48,7 +48,6 @@ function Technologies() {
         <img src={sql} title="SQL" alt="" />
         <img src={sqlalchemy} title="SQLAlchemy" alt="" />
         <img src={fastapi} title="FastAPI" alt="" />
-        <img src={docker} title="Docker" alt="" />
         <img src={mongodb} title="MongoDB" alt="" />
         <img src={aws} title="Amazon Web Services" alt="" />
       </section>
@@ -62,6 +61,7 @@ function Technologies() {
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
         <img src={npm} title="NPM" alt="NPM" />
+        <img src={docker} title="Docker" alt="" />
       </section>
     </main>
   );

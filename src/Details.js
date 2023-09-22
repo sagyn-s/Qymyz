@@ -43,7 +43,7 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Full-Stack Developer Intern",
+    Position: "Full-Stack Developer Intern, Demo Day finalist",
     Company: `nFactorial Incubator`,
     CompanyLink: "https://www.nfactorial.school/nfactorial-incubator-2023",
     Location: "Satbayev University, Almaty",
