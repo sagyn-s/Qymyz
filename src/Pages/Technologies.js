@@ -23,6 +23,7 @@ function Technologies() {
     docker,
     mongodb,
     aws,
+    cplusplus,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -50,6 +51,7 @@ function Technologies() {
         <img src={fastapi} title="FastAPI" alt="" />
         <img src={mongodb} title="MongoDB" alt="" />
         <img src={aws} title="Amazon Web Services" alt="" />
+        <img src={cplusplus} title="C++" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

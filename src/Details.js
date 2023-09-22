@@ -4,6 +4,7 @@ import profile from "./assets/profile.jpg";
 // Tech stack images
 import aws from "./assets/techstack/aws.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
+import cplusplus from "./assets/techstack/c++.png";
 import css from "./assets/techstack/css.png";
 import docker from "./assets/techstack/docker.png";
 import fastapi from "./assets/techstack/fastapi.png";
@@ -102,6 +103,7 @@ export const techStackDetails = {
   docker: docker,
   mongodb: mongodb,
   aws: aws,
+  cplusplus: cplusplus,
 };
 
 // Enter your Project Details here
