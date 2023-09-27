@@ -1,5 +1,4 @@
 import React from "react";
-import "./Work.css";
 
 function Work({ position, company, companylink, location, type, duration }) {
   console.log(companylink)

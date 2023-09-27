@@ -1,5 +1,4 @@
 import React from "react";
-import "./Honor.css";
 
 function Honor({ award, competition, honorlink, date, type }) {
   return (

@@ -46,7 +46,7 @@ export const workDetails = [
   {
     Position: "Full-Stack Developer Intern, Demo Day finalist",
     Company: `nFactorial Incubator`,
-    CompanyLink: "https://www.nfactorial.school/nfactorial-incubator-2023",
+    CompanyLink: "https://incubator.nfactorial.school/",
     Location: "Satbayev University, Almaty",
     Type: "Full Time",
     Duration: "June 2023 - Aug 2023",
@@ -111,8 +111,8 @@ export const projectDetails = [
   {
     title: "Freestyler",
     image: projectImage1,
-    description: `AI guide to any location of the world. Users can choose NYC, for instance, and ask what to do there for 5 days or they can choose Rome and ask which restaurants are there. The places they choose is shown on a 3D model of the earth.`,
-    techstack: "React, Tailwind CSS, Python, FastAPI",
+    description: `AI guide to any location of the world. Users can choose NYC, for instance, and ask what to do there for 5 days or they can choose Rome and ask which restaurants are there. The places they choose is shown on a 3D model of the earth. This project got accepted to <a href="https://www.microsoft.com/en-us/startups" class="link" target="_blank">Microsoft for Startups Founders Hub</a>`,
+    techstack: "React, TailwindCSS, FastAPI, OpenStreetMap, D3.js, OpenAI API, Yahoo GeoPlanet data",
     previewLink: "https://freestyler.vercel.app/",
     githubLink: "https://github.com/sagyn-s/Freestyler-Website",
   },
@@ -171,6 +171,13 @@ export const honorsDetails = [
     Competition: "Eurasian Team Olympiad in Informatics",
     HonorLink: "https://neerc.ifmo.ru/school/russia-team/index.html",
     Date: "19 December, 2021",
+    Type: "International",
+  },
+  {
+    Award: "Demo Day Finalist",
+    Competition: "nFactorial Incubator",
+    HonorLink: "https://incubator.nfactorial.school/",
+    Date: "11 August, 2023",
     Type: "International",
   },
   {
